@@ -1,0 +1,7 @@
+This folder contains the concepts and notes for hardcoding the different types of networks. 
+1. Linear Regression
+2. Linear Classification
+3. Logistic Classification with cross entropy loss function
+4. Convolutional Neural Networks (CNN)
+5. Autoencoders
+6. LSTM - RNN
