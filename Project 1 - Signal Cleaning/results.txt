@@ -1,0 +1,15 @@
+Running simple sigmoid function and Sgd optimizationnumnodes 10
+0.816500
+numnodes 50
+0.815150
+numnodes 100
+0.817000
+Running with regularizationregularization_nunodes10_epochs_500_batchsize_5000
+0.816150
+Running with dropouts
+0.814850
+Running with updated activation functions
+0.501125
+Running with batchnormalization and updated activation functions
+0.501125
+Running with batchnormalization, updated activation, optimization and loss functions
