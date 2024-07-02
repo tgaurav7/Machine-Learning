@@ -5,8 +5,7 @@ The folder contains four projects that uses Keras for implementing supervised le
       The code contained reads the dataset of predetermined normal and malicious login attempts and scales each of the features using minmax function from SciKit Learn in range [0, 1]. The autoencoder built using Keras is trained and tested with the divided dataset to set a threshold between normal and malicious login attempts. The code uses varying parameters in the model(number of hidden layers, number of nodes per layer, activation functions, cost function, optimization algorithm and the impact of regularization, batch normalization and dropout) for the model to find the best confusion matrix, and thus the best separation threshold. It is suggested that the cross-entropy loss function in the present version be replaced with MSE. 
   3. Motion Detection from Time-Series data: The current code reads the dataset of time-series sensor data by people who are performing different actions and the aims at creating LSTM to classify motion detected by the sensors. 
   4. Number Recognition: This project aims at using Varaitional Autoencoders for predicting the numbers from MNIST dataset. 
-  Similar method can be used to perform the Image Classification using the ILSVRC challenge dataset (https://image-net.org/challenges/LSVRC/).
-        Some well known solutions for the problem are given in the resources: 
+  CNNs have been used to perform the Image Classification using the ILSVRC challenge dataset (https://image-net.org/challenges/LSVRC/). Some well known solutions for the problem are given in the resources: 
           a. AlexNet: http://www.cs.toronto.edu/~fritz/absps/imagenet.pdf
           b. ResNet: https://arxiv.org/abs/1512.03385
           c. GoogLeNet: https://arxiv.org/abs/1409.4842
